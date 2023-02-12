@@ -18,6 +18,27 @@
      
     }
 
+    .container-sobre p{
+        font-size: 15px;
+        text-align: justify;
+        margin: auto 20px;
+        margin-bottom: 10px;
+    }
+
+    .imagem{
+        height: 100px;
+        width: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        
+    
+    }
+
+    .caption a{
+        font-size: 10px;
+    }
+
 }
 
 
@@ -40,6 +61,20 @@
         margin: 0;
         flex-wrap: wrap;
         font-size: 18px;
+    }
+
+    .container-sobre p{
+        font-size: 8px;
+    }
+
+    .imagem{
+        height: 80px;
+        width: 80px;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-bottom: 3px;
+        
+    
     }
 
 }
