@@ -1,0 +1,56 @@
+.container-projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 540px;
+
+}
+
+h2{
+    text-align: center;
+    text-align: 15px;
+    margin-bottom: 20px;
+    margin: 20px 20px 0;
+}
+
+p{
+    text-align: justify;
+    text-align: 20px;
+    margin: 20px 20px 0;
+}
+
+
+
+
+.imagem{
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+
+}
+
+.caption{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.caption a{
+    text-align: center;
+    text-decoration: none;
+    color:rgb(231, 231, 231);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+
+

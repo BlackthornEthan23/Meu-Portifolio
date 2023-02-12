@@ -1,0 +1,64 @@
+.container-topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(90, 92, 92);
+    border-radius: 0 0 25px 25px;
+    height: 3000vh;
+    min-height: 170px;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+.container-logo{
+    text-align: center;
+    margin-right: 20px;
+}
+
+.container-menu .container-menu-list li{
+    display: inline;
+    margin-left: 50px;
+}
+
+.container-midias .imagem-midias{
+    display: flex;
+    margin-left: 30px;
+    gap: 10px;
+}
+
+
+span {
+    color: #c07dff;
+}
+
+.container-logo{
+    font-size: 20px;
+
+
+}
+
+
+.container-menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+
+
+
+.container-menu-list li{
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+
+
