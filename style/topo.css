@@ -1,23 +1,39 @@
-@import url("container.css");
-
 .container-topo{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    width: 100%;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: rgb(90, 92, 92);
+    background-color: rgb(133, 68, 68);
     border-radius: 0 0 25px 25px;
-    margin-bottom: 20px;
-
-
+    width: 100%;
+    max-width: 900px;
+    height: 50px;
+    margin-bottom: 10px;
 
     
 }
 
 
-.container-menu-list li{
+.container-logo{
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 15px;
+    
+}
+
+.container-menu {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-menu .container-menu-list li{
     margin-left: 20px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
 }
 
 
@@ -26,38 +42,17 @@ span {
     color: #c07dff;
 }
 
-.container-logo{
-    width: 100%;
-    font-size: 20px;
-    text-align: center;
-    margin-left: 20px;
-    margin-bottom: 10px;
 
-}
-
-.container-menu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding-bottom: 20px;
-}
 
 
 .container-menu ul{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
 
 }
 
-
-
-.container-menu-list li{
-    font-weight: 400;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-}
 
 
 
