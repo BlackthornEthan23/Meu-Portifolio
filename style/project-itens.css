@@ -1,0 +1,26 @@
+.projeto-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+.imagem {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

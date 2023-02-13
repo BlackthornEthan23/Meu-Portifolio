@@ -12,11 +12,22 @@ html, body{
     align-items: center;
     background-color: #64648c;
     color: white;
-    max-width: 2560px;
-    min-width: 900px;
+    width: 100%;
+    
+}
 
+.container-conteudo{
+    display: flex;
+    max-width: 900px;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: start;
 
 }
 
+
+p{
+    text-align: center;
+}
 
 

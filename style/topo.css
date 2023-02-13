@@ -1,27 +1,23 @@
+@import url("container.css");
+
 .container-topo{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    width: 100%;
     flex-wrap: wrap;
     background-color: rgb(90, 92, 92);
     border-radius: 0 0 25px 25px;
-    width: 100%;
-    height: 200px;
+    margin-bottom: 20px;
+
+
 
     
 }
 
 
-.container-logo{
-    text-align: center;
-    margin-right: 20px;
-    
-}
-
-.container-menu .container-menu-list li{
-    display: inline;
-    margin-left: 50px;
+.container-menu-list li{
+    display: flex;
+    margin-left: 20px;
 }
 
 
@@ -31,9 +27,20 @@ span {
 }
 
 .container-logo{
+    width: 100%;
     font-size: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 10px;
 
+}
 
+.container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 
