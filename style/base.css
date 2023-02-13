@@ -6,9 +6,17 @@
 }
 
 html, body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #64648c;
     color: white;
+    max-width: 2560px;
+    min-width: 900px;
+
 
 }
+
 
 
