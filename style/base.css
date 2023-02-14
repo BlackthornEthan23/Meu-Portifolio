@@ -10,7 +10,7 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-image: linear-gradient(45deg, #3a0ea0, #9c1e68, #7e1f69);
     color: white;
     width: 100%;
     
