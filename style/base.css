@@ -2,25 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 
 }
 
 html, body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-image: linear-gradient(45deg, #3a0ea0, #9c1e68, #7e1f69);
+    justify-content: center;
+    background-image: linear-gradient(45deg, #8E81A3, #8E569C);
+    background-size: 1400px;
     color: white;
     width: 100%;
+    height: 100vh;
+
     
 }
 
+a{
+    color: white;
+}
 
-
-
-p{
-    text-align: center;
+span{
+    color: #000;
 }
 
 
