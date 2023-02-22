@@ -1,5 +1,6 @@
 .container-conteudo{
     display: flex;
+    align-items: flex-start;
     width: 100%;
     max-width: 900px;
     height: 100vh;
@@ -50,7 +51,6 @@ a{
     display: flex;  
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: start;
     justify-content: space-evenly;
     width: 100%;
 
